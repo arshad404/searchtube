@@ -25,6 +25,14 @@ const SearchBar = () => {
             placeholder="Your email"
           />
         </p>
+        <div
+          Style={"background: red"}
+          className="button is-medium search-button"
+        >
+          <span Style={"color: white"} className="icon is-small">
+            <i className="fas fa-search"></i>
+          </span>
+        </div>
       </div>
     </div>
   );
